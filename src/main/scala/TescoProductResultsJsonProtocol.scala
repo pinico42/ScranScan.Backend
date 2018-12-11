@@ -12,15 +12,15 @@ object TescoProductResultsJsonProtocol extends DefaultJsonProtocol {
                                  tpnb: String,
                                  tpnc: String
                                 )
-  case class TescoPackageDimensions(depth: Float,
+  case class TescoPackageDimensions(depth: Double,
                                     dimensionUom: String,
-                                    height: Float,
+                                    height: Double,
                                     no: Int,
-                                    volume: Float,
+                                    volume: Double,
                                     volumeUom: String,
-                                    weight: Float,
+                                    weight: Double,
                                     weightUom: String,
-                                    width: Float
+                                    width: Double
                                    )
   case class TescoProductCharacteristics(containsLoperamide: Boolean,
                                          healthScore: Int,
@@ -31,9 +31,9 @@ object TescoProductResultsJsonProtocol extends DefaultJsonProtocol {
                                          storageType: String)
   case class TescoProductContentQuantities(avgMeasure: String,
                                            netContents: String,
-                                           quantity: Float,
+                                           quantity: Double,
                                            quantityUom: String,
-                                           totalQuantity: Float)
+                                           totalQuantity: Double)
 
   implicit val tescoPackageDimensionsFormat: RootJsonFormat[TescoPackageDimensions] = jsonFormat9(TescoPackageDimensions)
   implicit val tescoProductCharacteristicsFormat: RootJsonFormat[TescoProductCharacteristics] = jsonFormat7(TescoProductCharacteristics)
