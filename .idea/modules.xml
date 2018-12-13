@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ScranScan.Backend.iml" filepath="$PROJECT_DIR$/.idea/modules/ScranScan.Backend.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scranscan-backend-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scranscan-backend-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ScranScan.Backend-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ScranScan.Backend-build.iml" />
     </modules>
   </component>
 </project>
