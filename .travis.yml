@@ -1,0 +1,8 @@
+language: scala
+scala:
+   - 2.12.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: "b9f6c7ac-702b-4eb2-a913-8a973a7e4935"
+  app: scran-scan
